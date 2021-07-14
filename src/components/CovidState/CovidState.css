@@ -1,0 +1,41 @@
+.covid-state-component {
+  background-color: #161625;
+}
+.state-full-name-container {
+  background-color: #0284c729;
+  border-radius: 30px;
+  color: #0ea5e9;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+.state-full-name {
+  margin-bottom: 0px;
+}
+.tested-text {
+  font-size: 14px;
+  margin: 0px;
+  color: #94a3b8;
+}
+.tested-number {
+  font-size: 18px;
+  margin: 0px;
+  color: #94a3b8;
+}
+.update-status {
+  color: white;
+  font-weight: 500;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.top-districts {
+  font-size: 32px;
+  color: white;
+}
+
+@media screen and (max-width: 786px) {
+  .state-name-container {
+    width: 400px;
+  }
+}

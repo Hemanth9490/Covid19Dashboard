@@ -1,0 +1,38 @@
+.footer-container {
+  display: flex;
+  background-color: #161625;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+#custom-navbar {
+  background-color: #1e1e30;
+}
+.nav-link {
+  text-decoration: none;
+  margin: 8px;
+  color: white;
+  font-family: 'Roboto';
+}
+
+.custom-navbar-brand {
+  color: white;
+  font-size: 20px;
+  font-family: 'Bree Serif';
+}
+a:hover {
+  color: none;
+}
+
+.navbar-india-text {
+  color: blue;
+}
+
+.footer-tag-line {
+  color: #94a3b8;
+  font-size: 16px;
+}
+.footer-icons {
+  margin: 20px;
+
+  margin-top: 10px;
+}

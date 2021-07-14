@@ -1,0 +1,22 @@
+.covid-about-component {
+  background-color: #161625;
+  display: flex;
+  padding-top: 30px;
+  color: #e2e8f0;
+  justify-content: center;
+  font-family: 'Roboto';
+}
+.update-date {
+  font-size: 18px;
+  font-weight: 400;
+  color: #94a3b8;
+}
+.update-info {
+  font-size: 24px;
+  font-weight: 500;
+}
+.loader-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

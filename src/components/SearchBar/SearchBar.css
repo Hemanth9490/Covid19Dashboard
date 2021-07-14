@@ -1,0 +1,36 @@
+.covid-search-bar-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 64px;
+}
+.covid-searchbar-container {
+  background-color: #2f2f43;
+  width: 824px;
+  height: 72px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+.covid-searchbar {
+  background-color: transparent;
+  outline: none;
+  border: 0px;
+  margin-left: 10px;
+  width: 500px;
+  color: #94a3b8;
+}
+
+@media all and (max-width: 786px) {
+  .covid-searchbar {
+    width: 200px;
+  }
+  .covid-searchbar-container {
+    width: 312px;
+    height: 48px;
+    margin-top: 24px;
+  }
+}

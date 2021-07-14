@@ -1,0 +1,15 @@
+.each-dist {
+  color: #94a3b8;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-style: italic;
+}
+.dist-name {
+  font-size: 12px;
+}
+.top-districts-heading {
+  color: red;
+  font-size: 30px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}

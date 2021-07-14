@@ -1,0 +1,22 @@
+#custom-navbar {
+  background-color: #1e1e30;
+}
+.nav-link {
+  text-decoration: none;
+  margin: 8px;
+  color: white;
+  font-family: 'Roboto';
+}
+
+.custom-navbar-brand {
+  color: white;
+  font-size: 20px;
+  font-family: 'Bree Serif';
+}
+a:hover {
+  color: none;
+}
+
+.navbar-india-text {
+  color: blue;
+}
