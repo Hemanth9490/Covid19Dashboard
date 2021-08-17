@@ -6,7 +6,7 @@ class LineGraphs extends Component {
   render() {
     const {forLineGraphs} = this.props
     const {forMonthLabels} = forLineGraphs
-    console.log('Line', forMonthLabels)
+
     const {
       forConfirmedCases,
       forRecoveredCases,
@@ -16,7 +16,7 @@ class LineGraphs extends Component {
       forVaccinatedOneCases,
       forVaccinatedTwoCases,
     } = forLineGraphs
-    console.log('Line', forConfirmedCases)
+
     const dataForConfirmedCases = {
       labels: forMonthLabels,
       datasets: [

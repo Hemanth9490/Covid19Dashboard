@@ -181,7 +181,7 @@ class CovidState extends Component {
     const {params} = match
     const {id} = params
     const response = await fetch(
-      'https://api.covid19india.org/v4/min/timeseries.min.json',
+      'https://data.covid19india.org/v4/min/timeseries.min.json',
     )
     const fetchedData = await response.json()
     const data = fetchedData[id].dates
@@ -299,8 +299,7 @@ class CovidState extends Component {
       })
     })
     allUniQueMonthlabels.splice(10, 1)
-    console.log('NEW', allUniQueMonthlabels)
-    console.log('NEW', confirmedList)
+
     const LineGraphsDataObject = {
       forMonthLabels: allUniQueMonthlabels,
       forConfirmedCases: confirmedList,
@@ -327,7 +326,7 @@ class CovidState extends Component {
     const {params} = match
     const {id} = params
     const response = await fetch(
-      'https://api.covid19india.org/v4/min/data.min.json',
+      'https://data.covid19india.org/v4/min/data.min.json',
     )
     const data = await response.json()
 

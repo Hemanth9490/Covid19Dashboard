@@ -15,7 +15,7 @@ class CovidAbout extends Component {
 
   getFAQs = async () => {
     const response = await fetch(
-      'https://api.covid19india.org/website_data.json',
+      'https://data.covid19india.org/website_data.json',
     )
     const data = await response.json()
     this.setState({faqsList: data.faq, isLoading: false})
